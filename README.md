@@ -5,5 +5,14 @@ Advisor : Prof. YAMADA Seiji
 
 Student : Ting-Jui Hsu
 
+Dataset : ImageNet (https://image-net.org/index.php)
+
+# Phase 1:Feature Engineering
+* TWO image classes 
+
+* FOUR image classes 
+
+
+
 
 
