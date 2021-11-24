@@ -14,7 +14,7 @@ Student : Ting-Jui Hsu
 
 * python version > 3.7.3
 
-* libiary:
+* library:
 
 List in the requirements.
 
