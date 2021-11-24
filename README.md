@@ -10,6 +10,14 @@ Student : Ting-Jui Hsu
 * I use tiny imagenet 200 dataset. (https://paperswithcode.com/dataset/tiny-imagenet)
 * I choose random 5 images to show each class.
 
+# Requirement
+
+* python version > 3.7.3
+
+* libiary:
+
+List in the requirements.
+
 # Phase 1 : Feature Engineering
 * TWO image classes 
 
@@ -28,6 +36,11 @@ n02123394	Persian cat
 n03837869	obelisk
 
 * SIFT and bag-of-features 
+
+Usage : (Get the feature vectors, including the image with keypoints and only descriptors.)
+
+python get_bof_feature_vectors.py
+
 
 # Phase 2 : Classification Learning Experiments
 * 2-classes classification learning by XGBoost
