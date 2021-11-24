@@ -36,9 +36,9 @@ def bag_of_features(input_img, save_path):
 
 def main():
 	#input_img = 'n01443537_0.JPEG'
-	input_img = 'Fast_and_furious_six_ver3.jpg'
+	#input_img = 'Fast_and_furious_six_ver3.jpg'
 	save_path = ''
-	bag_of_features(1,input_img,save_path)
+	bag_of_features(input_img,save_path)
 
 
 if __name__ == '__main__':
