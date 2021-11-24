@@ -7,6 +7,8 @@ Student : Ting-Jui Hsu
 
 # Dataset : ImageNet (https://image-net.org/index.php)
 
+* I use tiny imagenet 200 dataset. (https://paperswithcode.com/dataset/tiny-imagenet)
+
 # Phase 1 : Feature Engineering
 * TWO image classes 
 
