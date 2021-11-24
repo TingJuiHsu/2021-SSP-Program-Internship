@@ -45,6 +45,10 @@ Usage : (Get the feature vectors, including the image with keypoints and only de
 
 python get_bof_feature_vectors.py
 
+* Notice!!
+
+There are some results I got in the bof_data folder.
+
 
 # Phase 2 : Classification Learning Experiments
 * 2-classes classification learning by XGBoost
