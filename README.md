@@ -7,10 +7,30 @@ Student : Ting-Jui Hsu
 
 Dataset : ImageNet (https://image-net.org/index.php)
 
-# Phase 1:Feature Engineering
+# Phase 1 : Feature Engineering
 * TWO image classes 
 
+n01443537	goldfish, Carassius auratus
+
+n01629819	European fire salamander, Salamandra salamandra
+
 * FOUR image classes 
+
+n01855672	goose
+
+n01698640	American alligator, Alligator mississipiensis
+
+n02123394	Persian cat
+
+n03837869	obelisk
+
+* SIFT and bag-of-features 
+
+# Phase 2 : Classification Learning Experiments
+* 2-classes classification learning by XGBoost
+* 4-classes classification learning by XGBoost
+
+
 
 
 
