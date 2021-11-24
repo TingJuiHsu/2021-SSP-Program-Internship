@@ -18,6 +18,10 @@ Student : Ting-Jui Hsu
 
 List in the requirements.
 
+* Install XGBOOST
+
+Following the link. (https://xgboost.readthedocs.io/en/latest/install.html)
+
 # Phase 1 : Feature Engineering
 * TWO image classes 
 
