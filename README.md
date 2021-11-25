@@ -1,9 +1,9 @@
 # 2021-SSP-Program-Internship
 Machine learning for classifying images by feature engineering in python.
 
-Advisor : Prof. YAMADA Seiji
+Advisor : Prof. YAMADA Seiji (National Institute of Informatics, http://www.ymd.nii.ac.jp/lab/seiji/en)
 
-Student : Ting-Jui Hsu
+Student : Ting-Jui Hsu (National Tsing Hua University, NTHU)
 
 # Dataset : ImageNet (https://image-net.org/index.php)
 
@@ -20,7 +20,7 @@ List in the requirements.
 
 * Install XGBOOST
 
-Following the link. (https://xgboost.readthedocs.io/en/latest/install.html)
+Follow the link. (https://xgboost.readthedocs.io/en/latest/install.html)
 
 # Phase 1 : Feature Engineering
 * TWO image classes 
@@ -53,9 +53,9 @@ There are some results I got in the bof_data folder.
 # Phase 2 : Classification Learning Experiments
 * 2-classes classification learning by XGBoost
 
-data : In training_data folder
+data for training : In training_data folder
 
-model : In model folder
+trained model : In model folder
 
 * Usage:
 
@@ -65,7 +65,7 @@ main training or testing XGBOOST >>>> python original.py
 
 * 4-classes classification learning by XGBoost
 
-Didn't finish.........
+Didn't finish yet. > <
 
 
 
