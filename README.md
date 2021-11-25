@@ -14,7 +14,7 @@ Student : Ting-Jui Hsu (National Tsing Hua University, NTHU)
 
 * python version > 3.7.3
 
-* library:
+* library
 
 List in the requirements.
 
@@ -45,7 +45,7 @@ Usage : (Get the feature vectors, including the image with keypoints and only de
 
 python get_bof_feature_vectors.py
 
-* Notice!!
+* Notice
 
 There are some results I got in the bof_data folder.
 
@@ -57,7 +57,7 @@ data for training : In training_data folder
 
 trained model : In model folder
 
-* Usage:
+* Usage
 
 data preprocessing > python pre.py (if needed)
 
