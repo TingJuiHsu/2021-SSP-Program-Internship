@@ -52,7 +52,20 @@ There are some results I got in the bof_data folder.
 
 # Phase 2 : Classification Learning Experiments
 * 2-classes classification learning by XGBoost
+
+data : In training_data folder
+
+model : In model folder
+
+* Usage:
+
+data preprocessing > python pre.py (if needed)
+
+main training or testing XGBOOST >>>> python original.py
+
 * 4-classes classification learning by XGBoost
+
+Didn't finish.........
 
 
 
