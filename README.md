@@ -45,6 +45,8 @@ Random rotation and scale on original data.
 
 After data augmentation, I also apply SIFT and bof to generate feature vectors.
 
+--> The final Data I got is too large to upload... > <
+
 Usage :
 
 python aug.py
@@ -75,7 +77,13 @@ main training or testing XGBOOST >>>> python original.py
 
 * 4-classes classification learning by XGBoost
 
-Didn't finish yet. > <
+Usage:
+
+python train_version2.py
+
+--> I can't have good results on original training manner and I use xgb.train instead of xgb.fit to train the model.
+
+
 
 
 
