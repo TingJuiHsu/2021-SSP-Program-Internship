@@ -61,7 +61,7 @@ watchlist = [ (xg_train,'train'), (xg_test, 'test') ]
 num_round = 1000
 
 ## load model
-with gzip.open('t12_01_model11.pgz', 'r') as f:
+with gzip.open('final_model/four_classes/t12_01_model8.pgz', 'r') as f:
     bst = pickle.load(f)
 
 
