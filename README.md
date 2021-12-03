@@ -39,6 +39,16 @@ n02123394	Persian cat
 
 n03837869	obelisk
 
+* Data augmentation
+
+Random rotation and scale on original data.
+
+After data augmentation, I also apply SIFT and bof to generate feature vectors.
+
+Usage :
+
+python aug.py
+
 * SIFT and bag-of-features 
 
 Usage : (Get the feature vectors, including the image with keypoints and only descriptors.)
