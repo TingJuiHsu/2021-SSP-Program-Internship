@@ -45,7 +45,7 @@ Random rotation and scale on original data.
 
 After data augmentation, I also apply SIFT and bof to generate feature vectors.
 
---> The final Data I got is too large to upload... > <
+--> The final Data of data augmentation I got is too large to upload... > <
 
 Usage :
 
@@ -82,6 +82,26 @@ Usage:
 python train_version2.py
 
 --> I can't have good results on original training manner and I use xgb.train instead of xgb.fit to train the model.
+
+Summary of Phase 2
+
+In XGBOOST, I find that data augmentation can’t enhance the accuracy.
+
+It will be very hard to train when the number of class increased.
+
+The best accuracy is 1 / 0.88 on 2 classes,  while on 4 classes is 1 / 0.605.
+
+It still has severe overfitting on both cases.
+
+* Conclusion: 
+
+In phase 0, I learn how to maintain the github.
+
+In phase 1, I obtain the technique to apply data augmentation, SIFT and BoF on ImageNet.
+
+In phase 2, I acquire how to train and tune the model and compare the results of all parameters.
+
+
 
 
 
