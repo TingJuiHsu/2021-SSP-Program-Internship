@@ -103,7 +103,9 @@ The best accuracy is 1 / 0.88 on 2 classes,  while on 4 classes is 1 / 0.605.
 
 It still has severe overfitting on both cases.
 
-* Conclusion: 
+ ------------------------------------------------------
+
+# Conclusion: 
 
 In phase 0, I learn how to maintain the github.
 
