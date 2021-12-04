@@ -22,6 +22,8 @@ List in the requirements.
 
 Follow the link. (https://xgboost.readthedocs.io/en/latest/install.html)
 
+ ------------------------------------------------------
+
 # Phase 1 : Feature Engineering
 * TWO image classes 
 
@@ -61,6 +63,7 @@ python get_bof_feature_vectors.py
 
 There are some results I got in the bof_data folder.
 
+-------------------------------------------------------
 
 # Phase 2 : Classification Learning Experiments
 * 2-classes classification learning by XGBoost
@@ -77,13 +80,20 @@ main training or testing XGBOOST >>>> python original.py
 
 * 4-classes classification learning by XGBoost
 
-Usage:
+--> I can't have good results on original training manner and I use xgb.train instead of xgb.fit to train the model.
+
+* Usage:
 
 python train_version2.py
 
---> I can't have good results on original training manner and I use xgb.train instead of xgb.fit to train the model.
 
-Summary of Phase 2
+* Notice
+
+All the results of model (such as parameters, training results) and trained model are in the '' all_results_during_training '' folder.
+
+ ------------------------------------------------------
+
+# Summary of Phase 2
 
 In XGBOOST, I find that data augmentation can’t enhance the accuracy.
 
